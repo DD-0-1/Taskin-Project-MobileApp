@@ -49,7 +49,7 @@ export class AuthPage implements OnInit {
 
 
         this.utilsSvc.presentToast({
-          message: `Te damos la bienvenida ${user.name}`,
+          message: `Bienvenido: ${user.name}`,
           duration: 1500,
           color: 'primary',
           icon: 'person-outline'
@@ -61,8 +61,8 @@ export class AuthPage implements OnInit {
 
         this.utilsSvc.dismissLoading();
         this.utilsSvc.presentToast({
-          message: error,
-          duration: 5000,
+          message: 'Contraseña incorrecta',
+          duration: 3500,
           color: 'warning',
           icon: 'alert-circle-outline'
         })
