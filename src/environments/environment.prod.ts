@@ -2,7 +2,7 @@ export const environment = {
   production: true,
   firebaseConfig: {
 
-    apiKey: "ACA VA LA APIKEY DE FB DB",  
+    apiKey: "ACA VA LA API KEY DE FB DB",  
     authDomain: "taskin-project.firebaseapp.com",  
     projectId: "taskin-project",  
     storageBucket: "taskin-project.appspot.com",  

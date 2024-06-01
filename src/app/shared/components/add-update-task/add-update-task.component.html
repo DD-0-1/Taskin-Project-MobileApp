@@ -1,5 +1,5 @@
 <ion-content color="light">
-<app-header color="light"  [centerTitle]=true [isModal]=true [title]="task ? 'Proyecto' : 'Nuevo Proyecto'"></app-header>
+<app-header color="light" [centerTitle]=true [isModal]=true [title]="task ? 'Proyecto' : 'Nuevo Proyecto'"></app-header>
 
 
 <app-custom-input [control]= "form.controls.title" type="text" label="Título"></app-custom-input>        
@@ -42,16 +42,17 @@
         <ion-label class="ion-text-wrap"> {{ item.name }} </ion-label>
   
         <ion-buttons slot="end">
-          <ion-button (click)="removeItem(i)">
+          <ion-button (click)="removeItem(i)">Eliminar
             <ion-icon name="trash-outline"></ion-icon>
           </ion-button>
         </ion-buttons>
   
-        
+      
       </ion-item>
-
       <ion-item class="item-reorder">
-        <ion-reorder slot="end"></ion-reorder>
+        <ion-reorder slot="end">
+        Mover  <ion-icon name="git-compare-outline"></ion-icon>          
+        </ion-reorder>
       </ion-item>
     </div>
 
