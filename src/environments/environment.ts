@@ -6,7 +6,7 @@ export const environment = {
   production: false,
   firebaseConfig: {
 
-    apiKey: "AIzaSyAcXns9rUy-2I_XZQcq__Nj5S1-EwWMWL0",  
+    apiKey: "ACA VA LA APIKEY DE FIREBASE",  
     authDomain: "taskin-project.firebaseapp.com",  
     projectId: "taskin-project",  
     storageBucket: "taskin-project.appspot.com",  
